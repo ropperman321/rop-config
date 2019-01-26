@@ -1,8 +1,7 @@
 server:  
-  port: 0
-  #port: ${PORT:7730}
+  port: ${PORT:7741}
 
-message: hola tio
+message: hola tio2
 
 #logging:
 #  file: /logs/${spring.application.name}

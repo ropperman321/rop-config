@@ -9,11 +9,11 @@ eureka:
 #    registryFetchIntervalSeconds: 5
     region: default
     serviceUrl:
-      defaultZone: http://discovery1.ropapp.com:8761/eureka/,http://discovery1.ropapp.com:8761/eureka/
+      defaultZone: http://discovery1.ropapp.com:8761/eureka/,http://discovery2.ropapp.com:8761/eureka/
 
   instance:
     lease-renewal-interval-in-seconds: 10
-    hostname: rop.discovery2.com
+    hostname: discovery2.ropapp.com
   server:
     wait-time-in-ms-when-sync-empty: 0
     enable-self-preservation: true 

@@ -1,0 +1,6 @@
+server:  
+  port: ${PORT:7740}
+
+message: hola speed
+
+endpoint: http://local.ropapp.com:7741

@@ -1,0 +1,19 @@
+server:  
+  port: 8761
+  
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+#    region: default
+#    registryFetchIntervalSeconds: 5
+    region: default
+    serviceUrl:
+      defaultZone: http://discovery.ropapp.com:8761/eureka/
+
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    hostname: discovery.ropapp.com
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+    enable-self-preservation: true 

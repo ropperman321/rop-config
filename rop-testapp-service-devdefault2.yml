@@ -3,5 +3,9 @@ server:
 
 message: hola tio2
 
+rop:
+  bus:
+    kafkaPortIp: kafkadockermastermulti_kafka_1:32768
+
 #logging:
 #  file: /logs/${spring.application.name}

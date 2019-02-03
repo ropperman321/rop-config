@@ -6,7 +6,7 @@ message: hola tio
 
 rop:
   bus:
-    kafkaPortIp: 192.168.99.103:9092
+    kafkaPortIp: 192.168.99.100:9092
 
 #logging:
 #  file: /logs/${spring.application.name}

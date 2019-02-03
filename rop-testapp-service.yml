@@ -11,3 +11,14 @@ rop:
 
 #logging:
 #  file: /logs/${spring.application.name}
+
+eureka:
+  client:
+    region: default
+#    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://discovery.ropapp.com:8761/eureka/
+      #defaultZone: http://discovery.ropapp.com:8761/eureka/,http://discovery.ropapp.com:8762/eureka/
+  instance:
+    #prefer-ip-address: true
+    hostname: rop-testapp-service

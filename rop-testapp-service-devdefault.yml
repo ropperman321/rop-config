@@ -18,4 +18,4 @@ eureka:
       #defaultZone: http://winhost.rop.com:8761/eureka/,http://winhost.rop.com:8762/eureka/
   instance:
     #prefer-ip-address: true
-    hostname: dockerrop.testapp.com
+    hostname: rop.testapp.com

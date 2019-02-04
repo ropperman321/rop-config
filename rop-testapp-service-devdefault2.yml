@@ -21,6 +21,7 @@ eureka:
     hostname: rop.testapp2.com
 
 spring:
+  cloud:
 # Kafka
     stream:
       kafka:

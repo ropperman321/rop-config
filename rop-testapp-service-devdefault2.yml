@@ -5,7 +5,7 @@ message: hola tio2
 
 rop:
   bus:
-    kafkaPortIp: 192.168.99.100:32768
+    kafkaPortIp: docker.ropapp.com:32768
     #kafkaPortIp: kafkadockermastermulti_kafka_1:32768
 
 #logging:
@@ -19,13 +19,4 @@ eureka:
       #defaultZone: http://winhost.rop.com:8761/eureka/,http://winhost.rop.com:8762/eureka/
   instance:
     #prefer-ip-address: true
-    hostname: rop.testapp2.com
-
-spring:
-  cloud:
-# Kafka
-    stream:
-      kafka:
-        binder:
-#          zkNodes: 192.168.99.100:2181
-          brokers: 192.168.99.100:32768
+    #hostname: rop.testapp2.com

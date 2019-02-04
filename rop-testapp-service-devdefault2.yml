@@ -5,7 +5,8 @@ message: hola tio2
 
 rop:
   bus:
-    kafkaPortIp: kafkadockermastermulti_kafka_1:32768
+    kafkaPortIp: 192.168.99.100:32768
+    #kafkaPortIp: kafkadockermastermulti_kafka_1:32768
 
 #logging:
 #  file: /logs/${spring.application.name}

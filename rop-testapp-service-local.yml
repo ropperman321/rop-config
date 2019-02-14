@@ -1,0 +1,33 @@
+spring:
+  cloud:
+# Kafka
+    stream:
+      kafka:
+        binder:
+#          zkNodes: 192.168.99.100:2181
+          brokers: 192.168.99.100:32768
+
+server:  
+  #port: 0
+  port: ${PORT:7741}
+
+message: hola tio
+
+rop:
+  bus:
+    kafkaPortIp: 192.168.99.100:32768
+    #kafkaPortIp: 192.168.99.100:9092
+
+#logging:
+#  file: /logs/${spring.application.name}
+
+eureka:
+  client:
+    region: default
+#    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://local.ropapp.com:8761/eureka/
+      #defaultZone: http://discovery.ropapp.com:8761/eureka/,http://discovery.ropapp.com:8762/eureka/
+  instance:
+    #prefer-ip-address: true
+    hostname: rop-testapp-service

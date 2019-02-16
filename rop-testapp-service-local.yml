@@ -30,4 +30,4 @@ eureka:
       #defaultZone: http://discovery.ropapp.com:8761/eureka/,http://discovery.ropapp.com:8762/eureka/
   instance:
     #prefer-ip-address: true
-    hostname: rop-testapp-service
+    hostname: localrop.testapp.com
